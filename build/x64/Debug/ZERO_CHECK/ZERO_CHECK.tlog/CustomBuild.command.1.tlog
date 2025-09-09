@@ -1,0 +1,10 @@
+^C:\MY_PROJECTS\GIT_REPO\MYCOMPILER\BUILD\CMAKEFILES\7455B69A8E437196E6A356C7A158BA4E\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -SC:/My_projects/git_repo/MyCompiler -BC:/My_projects/git_repo/MyCompiler/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/My_projects/git_repo/MyCompiler/build/MyCompiler.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
