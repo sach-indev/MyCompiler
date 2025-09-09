@@ -124,7 +124,5 @@ int main(int argc, char* argv[])
         file<<tokens_to_asm(tokens);
     }
 
-    system("")
-
     return EXIT_SUCCESS;
 } 
