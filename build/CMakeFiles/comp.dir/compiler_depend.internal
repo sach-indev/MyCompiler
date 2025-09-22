@@ -3,6 +3,7 @@
 
 CMakeFiles/comp.dir/src/main.cpp.o
  /mnt/c/My_projects/git_repo/MyCompiler/src/main.cpp
+ /mnt/c/My_projects/git_repo/MyCompiler/src/tokenization.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
