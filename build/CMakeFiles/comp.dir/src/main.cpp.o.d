@@ -165,4 +165,6 @@ CMakeFiles/comp.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/optional \
  /usr/include/c++/13/bits/enable_special_members.h \
- /mnt/c/My_projects/git_repo/MyCompiler/src/./tokenization.hpp
+ /mnt/c/My_projects/git_repo/MyCompiler/src/./generation.hpp \
+ /mnt/c/My_projects/git_repo/MyCompiler/src/./parser.hpp \
+ /mnt/c/My_projects/git_repo/MyCompiler/src/././tokenization.hpp

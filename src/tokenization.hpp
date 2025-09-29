@@ -50,7 +50,7 @@ public:
     
                 else
                 {
-                    std::cerr<<"Fuck me!"<<std::endl;
+                    std::cerr<<"I messed up!"<<std::endl;
                     exit(EXIT_FAILURE);
                 }
             }
@@ -78,7 +78,7 @@ public:
     
             else
             {
-                std::cerr<<"Fuck me!"<<std::endl;
+                std::cerr<<"I messed up!"<<std::endl;
                 exit(EXIT_FAILURE);
             }
         }
@@ -90,7 +90,7 @@ public:
 
 private:
     const std::string m_src;
-    [[nodiscard]] std::optional<char> peak(int ahead = 1) const
+    [[nodiscard]] inline std::optional<char> peak(int ahead = 1) const
     {
         if(m_index + ahead > m_src.length())
         {
@@ -102,7 +102,7 @@ private:
         }
     }
 
-    char consume()
+    inline char consume()
     {
         return m_src.at(m_index++);
     }
